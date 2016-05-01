@@ -28,3 +28,4 @@
 [5862a737](https://github.com/pokechu22/cuberite/commit/086c79461356ee6b794fdf40aa35a59a5862a737)
 [663e6ed8](https://github.com/pokechu22/cuberite/commit/debea1fca4367b0b4ce3152f5bea8656663e6ed8)
 [067e94e8](https://github.com/pokechu22/cuberite/commit/2a54a8cf635913051ad4ccf556d74e42067e94e8)
+[725a8448](https://github.com/pokechu22/cuberite/commit/91d5393feb5f56e384c81378078b8e5a725a8448)
