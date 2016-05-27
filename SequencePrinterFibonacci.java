@@ -3,7 +3,7 @@ import java.math.BigInteger;
 /**
  * Prints out the Fibonacci sequence.
  */
-public class SequencePrinterDefault extends SequencePrinter {
+public class SequencePrinterFibonacci extends SequencePrinter {
 	/**
 	 * Main format string, used when printing out the numbers of the fibonacci sequence.
 	 * 
