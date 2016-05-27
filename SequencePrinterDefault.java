@@ -3,7 +3,7 @@ import java.math.BigInteger;
 /**
  * Prints out the Lucas sequence.
  */
-public class SequencePrinterLucas extends SequencePrinter {
+public class SequencePrinterDefault extends SequencePrinter {
 	/**
 	 * Main format string, used when printing out the numbers of the lucas sequence.
 	 * 
