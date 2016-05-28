@@ -10,7 +10,7 @@ public class SequencePrinterDefault extends SequencePrinter {
 	 * See http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html
 	 * for information on syntax used here.
 	 */
-	public static final String FORMAT = "Term %d: %d%n";
+	public static final String FORMAT = "Lucas sequence term %d: %d%n";
 
 	/**
 	 * Prints out the given numbers in this sequence.
