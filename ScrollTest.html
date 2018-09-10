@@ -1,0 +1,21 @@
+<html>
+<head><title>Mouse wheel test</title>
+<script>
+function log(text) {
+  console.log(text);
+  window.output.value += text + "\n"
+}
+function onWheel(event) {
+  log("CURRENT: " + event.timeStamp + ": " + event.deltaX + " " + event.deltaY + " " + event.deltaZ + " " + event.deltaMode);
+}
+function onLegacyWheel(event) {
+  log("LEGACY: " + event.timeStamp + ": " + event.wheelDelta + " " + event.wheelDeltaX + " " + event.wheelDeltaY + " " + event.detail);
+}
+</script>
+</head>
+<body>
+<div onwheel="return onWheel(event);" onmousewheel="return onLegacyWheel(event);" style="width: 200px; height: 200px; background-color: lightgrey;">Scroll here</div>
+<textarea id="output" readonly style="width:100%; height:50%;"></textarea>
+
+</body>
+</html>
